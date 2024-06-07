@@ -1,0 +1,56 @@
+body {
+    font-size: 15pt;
+    background: #3A429C;
+}
+.one {
+  width: 350px;
+  height:400px;
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 50px;
+margin-left: 300px;
+background-image: url(/images.png);
+  
+    
+
+}
+.r {
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite
+}
+@keyframes spin {
+  
+  0% { 
+    transform:rotate(0deg)
+    
+  }
+100% {
+  transform: rotate(360deg)
+}
+  
+} 
+
+
+.pr {
+  color: #fff;
+  display: absolute;
+  text-align: center;
+  background: red;
+  font-size: 100px
+  
+}
+p {
+  color: #fff;
+  display: absolute;
+  text-align: center;
+  font-size: 100px
+}
+.tow {
+  margin-top: 500px;
+}
+.e {
+  margin-bottom: 1px
+}
